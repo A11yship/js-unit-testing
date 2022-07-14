@@ -5,4 +5,8 @@ describe("greet", () => {
     const result = greet("Hannah");
     expect(result).toBe("Hello Hannah!");
   });
+  it('returns a String "Hello stranger!" if called greet()', () => {
+    const result = greet();
+    expect(result).toBe("Hello Hannah!");
+  });
 });
