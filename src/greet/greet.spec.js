@@ -9,4 +9,12 @@ describe("greet", () => {
     const result = greet();
     expect(result).toBe("Hello stranger!");
   });
+  it('returns a String "Hello Coach!" if called greet(Alex)', () => {
+    const result = greet("Alex");
+    expect(result).toBe("Hello Coach!");
+  });
+  it('returns a String "Hello Coach!" if called greet(CJ)', () => {
+    const result = greet("CJ");
+    expect(result).toBe("Hello Coach!");
+  });
 });
