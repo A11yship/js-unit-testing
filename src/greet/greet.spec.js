@@ -7,6 +7,6 @@ describe("greet", () => {
   });
   it('returns a String "Hello stranger!" if called greet()', () => {
     const result = greet();
-    expect(result).toBe("Hello Hannah!");
+    expect(result).toBe("Hello stranger!");
   });
 });
